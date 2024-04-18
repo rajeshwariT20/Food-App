@@ -1,0 +1,14 @@
+nav{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #333;
+    text-transform:capitalize;
+}
+.logo{
+    text-transform:uppercase;
+}
+#navbar {
+    padding: 20px;
+    
+  }
