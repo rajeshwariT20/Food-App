@@ -1,17 +1,18 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Navbar from './components/Navbar.js';
+import Home from './components/Home.js';
+import Shop from './components/Shop.js'
 
 function App() {
   return (
     <div>
       <Navbar/>
       <Routes>
-      <Route path='/' exact Component={Home}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Shop' element={<Shop/>}/>
       </Routes>
-      
     </div>
   );
 }

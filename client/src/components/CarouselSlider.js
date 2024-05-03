@@ -4,7 +4,7 @@ import CarouselCaption from "react-bootstrap/esm/CarouselCaption";
 import CarouselItem from "react-bootstrap/esm/CarouselItem";
 import CarouselImg01 from "../Assets/CarouselImg01.jpg";
 import CarouselImg04 from "../Assets/CarouselImg04.jpg";
-import OrganicImg from "../Assets/OrganicImg.jpg"
+import OrganicImg from "../Assets/OrganicImg.jpg";
 import './CarouselSlider.css';
 
 export default function CarouselSlider(){

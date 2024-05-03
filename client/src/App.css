@@ -1,5 +1,4 @@
 
-
 .App-header {
   background-color: #f2f4f8;
   min-height: 100vh;
@@ -10,7 +9,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 
 
 @keyframes App-logo-spin {

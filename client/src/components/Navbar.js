@@ -9,7 +9,7 @@ export default function Navbar(){
         <div className="menu-wrapper sticky-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand logo " href="#">OrganicFood</a>
+                <a className="navbar-brand logo" href="#"> Organic Food</a>
                 <div className="collapse navbar-collapse justify-content-end" id="navbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
@@ -19,7 +19,7 @@ export default function Navbar(){
                             <Link className="nav-link" to="/">Freshly Made</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="">Shop</Link>
+                            <Link className="nav-link" to="/Shop">Shop</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="">Blog</Link>
